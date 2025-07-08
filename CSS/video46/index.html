@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        .container{
+            background-color: antiquewhite;
+            height: 80vh;
+            width: 30vw;
+        }
+        
+        .box{
+            border-radius: 80px;
+            width: 34px;
+            height: 45px;
+            background-color: aqua;
+            animation: Animation;
+            animation-duration: 10s;
+            /* animation-iteration-count: 3; */
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-out;
+            animation-delay: 1s;
+            /* animation-direction: reverse; */
+            /* animation-direction: alternate-reverse; */
+            animation-direction: alternate;
+            /* animation-play-state: paused; */
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+            /* animation: Animation 10s ease-out 3s 2,
+                       bhgg 1s ease-out 3s 2; */
+
+
+
+        }
+        @keyframes Animation {
+            from{
+                background-color: red;
+            }
+            to{
+                background-color: yellow;
+                transform: translate(1000px);
+            }
+        }
+        @keyframes bhgg {
+            0%{
+                transform: rotate(100deg);
+            }
+            20%{
+                transform: rotate(200deg);
+            }
+            50%{
+                transform: rotate(220deg);
+            }
+            80%{
+                transform: rotate(300deg);
+            }
+            100%{
+                transform: rotate(310deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"></div>
+    </div>
+</body>
+</html>

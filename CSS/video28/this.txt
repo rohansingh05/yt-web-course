@@ -1,0 +1,4 @@
+Position relative ka matlab hai ki jiska position by default static hai uske relative ye move karegi top, bottom,left, right
+z-index usi me laga skte jisme position relativehai
+
+transform,filter or perspective property can also maake an element appear  as positioned

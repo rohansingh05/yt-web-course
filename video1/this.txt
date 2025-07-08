@@ -1,0 +1,17 @@
+Client
+Server
+Browser
+
+Client -> Browser -> Server -> Browser -> Client
+
+-> BACKENED
+The Backened is the server side of the website
+It stores and arrange data, and also makes sure everything on the client side works fine.
+It is a part of the website that you cannot see and interact with.
+It is a portion of software that does not come in direct contact with the users.
+
+I had learn in this video
+-> How Website works
+-> knew about screencast mode
+-> what is BACKENED
+-> how to check network speed (fast.com) 

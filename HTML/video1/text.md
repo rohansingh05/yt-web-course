@@ -2,8 +2,6 @@
  **This is understand by simple analogy :**
 - 🧑‍💻 (Client) → 🌐 (Browser) → 🖥️ (Server) → 🌐 (Browser) → 🧑‍💻 (Client)
 
-<br>
-
 1. 🧑‍💻 **Client** – the user making the request
 
 2. 🌐 **Browser** – the interface used by the client to send/receive data

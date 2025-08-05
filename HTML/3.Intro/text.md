@@ -1,0 +1,1 @@
+- In this video we know the meaning of basic syntax of html

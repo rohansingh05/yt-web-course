@@ -1,0 +1,10 @@
+Common HTML Entities.....
+&lt; to show the symbol of <
+&gt; to show the symbol of >
+&amp; to show the symbol of &
+&nbsp; to show non-breaking space
+&copy; to show  the symbolof Copywright
+
+Quotation Tags....
+code tags....
+
